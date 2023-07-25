@@ -11,7 +11,7 @@ const Hero = () => {
             </div>
             <img className='w-full max-h-[500px] object-cover' src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg" alt="/" />
         </div>
-        Hero</div>
+        </div>
   )
 }
 
