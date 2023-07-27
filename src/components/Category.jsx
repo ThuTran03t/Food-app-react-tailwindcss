@@ -4,8 +4,8 @@ import { categories } from '../data/data.js';
 const Category = () => {
     console.log (categories)
   return (
-    <div className='max-w-[1640px] px-4 py-12 mx-auto'>
-        <h1 className='text-orange-600 font-bold text-4xl text-center'> Top Rated Menu Items</h1>
+    <div className='max-w-[2000px] px-4 py-12 mx-auto'>
+        <h1 className='text-orange-600 font-bold uppercase text-4xl text-center underline underline-offset-4 hover:text-blue-600'> Top Rated Menu Items</h1><br/>
         {/*  Categorys */}
         <div className='grid grid-cols-2 md:grid-cols-4 gap-6 py-6 '>
             {categories.map((item, index)=>(
