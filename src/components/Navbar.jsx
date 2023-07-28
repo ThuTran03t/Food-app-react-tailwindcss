@@ -34,7 +34,7 @@ const Navbar = () => {
          sm:w-[400px] lg:w-[500px]'>
           <AiOutlineSearch size={20} />
           <input className='bg-transparent p-2 w-full focus:outline-none'
-           type="text" placeholder='Search foods'/>
+            type="text" placeholder='Search foods' />
         </div>
 
         {/* Cart button */}
@@ -46,15 +46,15 @@ const Navbar = () => {
         {/* mobile menu */}
         {/* Overlay */}
         {nav ? (
-          <div className={nav ? 'bg-black/80 fixed w-full h-screen z-10 top-0 left-0':
-          'bg-black/80 fixed w-full h-screen z-10 top-0 left-[-100%]'}>
+          <div className={nav ? 'bg-black/80 fixed w-full h-screen z-10 top-0 left-0' :
+            'bg-black/80 fixed w-full h-screen z-10 top-0 left-[-100%]'}>
             {/*  side drawer menu */}
             <div className='fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300'>
               <AiOutlineClose
-              onClick={()=>setNav(!nav)}
-               size={30} 
-               className='absolute right-4 top-4 cursor-pointer' 
-               />
+                onClick={() => setNav(!nav)}
+                size={30}
+                className='absolute right-4 top-4 cursor-pointer'
+              />
               <h2 className='text-2xl p-4'>
                 Best <span className='font-bold'>East</span>
               </h2>
