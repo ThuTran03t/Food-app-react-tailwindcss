@@ -40,4 +40,4 @@ const HeadlineCards = () => {
     )
 }
 
-export default HeadlineCards
+export default HeadlineCards;

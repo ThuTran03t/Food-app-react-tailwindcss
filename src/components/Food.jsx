@@ -82,10 +82,12 @@ const Food = () => {
                             <p >
                                 <span className='bg-orange-500 text-white p-1 rounded-full '>{item.price}</span>
                             </p>
+                            
                         </div>
                     </div>
                 ))}
             </div>
+
 
         </div>
     )
